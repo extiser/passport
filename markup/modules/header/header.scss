@@ -9,7 +9,7 @@
 	border: 1px solid #2a557a;
 	border-bottom: 0;
 	background: url(../images/general/header-bg.png) repeat;
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 768px) {
 		height: auto;
 		box-sizing: border-box;
 	}
@@ -32,7 +32,7 @@
 		margin-left: 25px;
 
 		@include bg($logo);
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 768px) {
 			margin: 31px auto;
 		}
 	}
