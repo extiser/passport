@@ -1,0 +1,144 @@
+.comments {
+	&__title {
+		@extend h1;
+		@media screen and (max-width: 768px) {
+			text-align: center;
+		}
+	}
+}
+
+.comments-item {
+	margin-bottom: 30px;
+	padding: 21px 27px;
+
+	border: 1px solid #cdcdcd;
+	box-shadow: 0 2px 5px 0 rgba(50, 50, 50, .25);
+
+	@include cf;
+	@media screen and (max-width: 768px) {
+		width: 90%;
+		box-sizing: border-box;
+		box-shadow: none;
+		margin: 20px auto;
+	}
+	&--inside {
+		float: right;
+
+		width: 455px;
+		margin-bottom: 10px;
+		padding: 21px;
+
+		border: 0;
+		background: #e6e9ee;
+		box-shadow: none;
+
+		@media screen and (max-width: 768px) {
+			width: 88%;
+		}
+
+		@media screen and (max-width: 480px) {
+			float: none;
+			width: 100%;
+			box-sizing: border-box;
+			margin-top: 20px;
+		}
+	}
+	&__avatar {
+		display: inline-block;
+
+		width: 60px;
+		margin-right: 25px;
+
+		vertical-align: top;
+
+		@media screen and (max-width: 768px) {
+			width: 12%;
+			margin-right: 0;
+			img {
+				width: 80%;
+			}
+		}
+
+		@media screen and (max-width: 480px) {
+			display: none;
+		}
+
+		&--inside {
+			margin-right: 16px;
+			@media screen and (max-width: 768px) {
+				margin-right: 0;
+			}
+			img {
+				border: 3px solid #fff;
+				box-shadow: 0 2px 5px 0 rgba(50, 50, 50, .25);
+			}
+		}
+	}
+	&__content {
+		display: inline-block;
+
+		width: 480px;
+		margin-top: 3px;
+
+		@media screen and (max-width: 768px) {
+			width: 80%;
+		}
+
+		@media screen and (max-width: 480px) {
+			display: block;
+			width: 100%;
+			margin-top: 0;
+		}
+
+		&--inside {
+			width: 360px;
+
+			@media screen and (max-width: 768px) {
+				width: 80%;
+			}
+
+			@media screen and (max-width: 480px) {
+				display: block;
+				width: 100%;
+				margin-top: 0;
+			}
+		}
+	}
+	&__name {
+		position: relative;
+
+		display: inline;
+
+		padding: 5px 31px 5px 14px;
+
+		color: #424242;
+		background: #e7ebef;
+
+		font-size: em(13px);
+		&--inside {
+			color: #424242;
+			background: #fff;
+		}
+		&:after {
+			top: 8px;
+			right: 9px;
+
+			@include bg($mail);
+			@include content;
+		}
+	}
+	&__text {
+		margin-top: 20px;
+
+		color: #424242;
+
+		font-size: em(13px, 13px);
+
+		@media screen and (max-width: 768px) {
+			p {
+				padding: 0 !important;
+				margin: 0;
+			}
+		}
+	}
+}

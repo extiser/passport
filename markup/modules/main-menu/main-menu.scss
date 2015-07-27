@@ -6,7 +6,7 @@
 	border: 1px solid #cecece;
 	background: url(../images/general/main-menu-bg.png) repeat-x;
 	box-shadow: 0 2px 5px 0 rgba(50, 50, 50, .25);
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 768px) {
 		box-sizing: border-box;
 
 		box-shadow: none;
@@ -31,12 +31,12 @@
 			@include bg($menu);
 			@include content;
 		}
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 768px) {
 			display: block;
 		}
 	}
 	&__container {
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 768px) {
 			display: none;
 		}
 	}
@@ -55,7 +55,7 @@
 
 		font-size: em(13px);
 		line-height: 50px;
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 768px) {
 			display: block;
 			padding-left: 42px;
 		}
