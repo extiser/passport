@@ -1,0 +1,11 @@
+// GUI stylies of the project
+// For example, styles of the links, buttons and so on.
+
+.main {
+	width: 1000px;
+	margin: auto;
+
+	@media screen and (max-width: 480px) {
+		width: 100%;
+	}
+}

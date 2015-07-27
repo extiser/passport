@@ -1,0 +1,39 @@
+.header {
+	position: relative;
+
+	overflow: hidden;
+
+	width: 100%;
+	min-height: 117px;
+
+	border: 1px solid #2a557a;
+	border-bottom: 0;
+	background: url(../images/general/header-bg.png) repeat;
+	@media screen and (max-width: 480px) {
+		height: auto;
+		box-sizing: border-box;
+	}
+	&:before {
+		right: 0;
+		left: 0;
+
+		width: 523px;
+		height: 118px;
+		margin: auto;
+
+		background: url(../images/general/gerb.png);
+
+		@include content;
+	}
+	&__logo {
+		display: block;
+
+		margin-top: 31px;
+		margin-left: 25px;
+
+		@include bg($logo);
+		@media screen and (max-width: 480px) {
+			margin: 31px auto;
+		}
+	}
+}

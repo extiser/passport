@@ -1,0 +1,45 @@
+.left-menu {
+	margin-top: 24px;
+	padding-top: 17px;
+
+	border-top: 1px solid #c9cfd6;
+	@media screen and (max-width: 480px) {
+		display: block;
+		width: 100%;
+		margin-top: 0;
+		border: 0;
+	}
+	&__title {
+		margin-bottom: 14px;
+
+		color: #000;
+
+		font-size: em(15px);
+		font-weight: 700;
+		@media screen and (max-width: 480px) {
+			padding-left: 10px;
+			font-size: em(15px);
+		}
+	}
+	&__item {
+		display: block;
+
+		margin-bottom: 6px;
+		padding: 8px 10px;
+
+		text-decoration: none;
+
+		color: #515151;
+		background: #e5e9ee;
+		box-shadow: 0 1px 5px 0 rgba(50, 50, 50, .05);
+
+		font-size: em(13px);
+		@media screen and (max-width: 480px) {
+			font-size: em(14px);
+		}
+		&:hover {
+			color: #fff;
+			background: linear-gradient(to bottom,  #2273af 0%,#5a84af 100%);
+		}
+	}
+}

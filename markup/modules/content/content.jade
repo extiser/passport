@@ -1,0 +1,7 @@
+mixin content(page)
+	article.content
+		+contact-support()
+		- if (page == 'index')
+			+index-content()
+		- if (page == 'single')
+			+single-content()

@@ -1,0 +1,5 @@
+mixin left-menu(title, items)
+	.left-menu
+		.left-menu__title= title
+		- each item in items
+			a(href="#" title="").left-menu__item= item
