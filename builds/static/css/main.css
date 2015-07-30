@@ -1954,16 +1954,16 @@ html, body {
     background: #e5e9ee;
     box-shadow: 0 1px 5px 0 rgba(50, 50, 50, 0.05);
     font-size: 0.8125em; }
+    .left-menu__item:hover {
+      color: #fff;
+      background: -webkit-linear-gradient(top, #2273af 0%, #5a84af 100%);
+      background: linear-gradient(to bottom, #2273af 0%, #5a84af 100%); }
     @media screen and (max-width: 768px) {
       .left-menu__item {
         font-size: 0.875em; }
         .left-menu__item:hover {
           color: #515151;
           background: #e5e9ee; } }
-    .left-menu__item:hover {
-      color: #fff;
-      background: -webkit-linear-gradient(top, #2273af 0%, #5a84af 100%);
-      background: linear-gradient(to bottom, #2273af 0%, #5a84af 100%); }
 
 .main-menu {
   display: table;
