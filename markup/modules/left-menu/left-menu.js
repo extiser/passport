@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
         if ($(this).hasClass('active')) {
             $('.menu-slide').detach();
             menu.clone().appendTo('.sidebar');
-            $('.main__slide, .menu-slide, .left-menu__mobile').removeClass('active');
+            $('.main__slide, .menu-slide, .left-menu__mobile, .main__wrap').removeClass('active');
         } else {
             $('.header').after('<div class="menu-slide"></div>');
 
@@ -14,7 +14,7 @@ jQuery(document).ready(function ($) {
 
             $('.sidebar .left-menu').detach();
 
-            $('.main__slide, .menu-slide, .left-menu__mobile').addClass('active');
+            $('.main__slide, .menu-slide, .left-menu__mobile, .main__wrap').addClass('active');
         }
     });
 });
