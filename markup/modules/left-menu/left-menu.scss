@@ -7,17 +7,17 @@
 		display: none;
 	}
 	&__mobile {
-		position: absolute;
-		top: 30px;
-		left: 10px;
+		position: relative;
+		top: 0;
+		left: 0;
 
 		display: none;
 
 		height: 48px;
 		padding-left: 42px;
 
-		color: #5a5a5a;
-		border: 1px solid transparent;
+		color: #fff;
+		background: transparent;
 
 		font-size: em(16px);
 		line-height: 48px;
@@ -32,6 +32,13 @@
 			&:before {
 				@include bg($close);
 			}
+		}
+		&.fixed {
+			position: fixed;
+
+			width: 100%;
+
+			background: $blue;
 		}
 		@media screen and (max-width: 768px) {
 			display: block;

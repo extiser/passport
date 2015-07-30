@@ -10,8 +10,10 @@
 	border-bottom: 0;
 	background: url(../images/general/header-bg.png) repeat;
 	@media screen and (max-width: 768px) {
-		height: auto;
 		box-sizing: border-box;
+		height: auto;
+
+		background: $blue;
 	}
 	&:before {
 		right: 0;
@@ -24,6 +26,9 @@
 		background: url(../images/general/gerb.png);
 
 		@include content;
+		@media screen and (max-width: 768px) {
+			height: 100%;
+		}
 	}
 	&__logo {
 		display: block;
@@ -33,7 +38,7 @@
 
 		@include bg($logo);
 		@media screen and (max-width: 768px) {
-			margin: 31px auto;
+			margin: 10px auto 30px;
 		}
 	}
 }
