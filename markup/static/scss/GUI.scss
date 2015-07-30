@@ -7,4 +7,31 @@
 	@media screen and (max-width: 768px) {
 		width: 100%;
 	}
+	&__slide {
+		@media screen and (max-width: 768px) {
+			width: 100%;
+			&.active {
+				margin-left: 90%;
+			}
+		}
+	}
+}
+
+.menu-slide {
+	position: absolute;
+	left: -100%;
+
+	width: 90%;
+
+	border-right: 1px solid #cecece;
+	&.active {
+		z-index: 5;
+		top: 120px;
+		left: 0;
+
+		background: #fff;
+		.left-menu {
+			display: block;
+		}
+	}
 }
