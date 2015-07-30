@@ -68,6 +68,10 @@
 		font-size: em(13px);
 		@media screen and (max-width: 768px) {
 			font-size: em(14px);
+			&:hover {
+				color: #515151;
+				background: #e5e9ee;
+			}
 		}
 		&:hover {
 			color: #fff;
