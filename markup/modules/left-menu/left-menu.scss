@@ -3,9 +3,6 @@
 	padding-top: 17px;
 
 	border-top: 1px solid #c9cfd6;
-	@media screen and (max-width: 768px) {
-		display: none;
-	}
 	&__mobile {
 		position: relative;
 		top: 0;
