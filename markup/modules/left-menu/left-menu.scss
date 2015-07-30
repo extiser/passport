@@ -21,6 +21,8 @@
 
 		font-size: em(16px);
 		line-height: 48px;
+		border-bottom: 1px solid #cecece;
+		z-index: 9999;
 		&:before {
 			top: 11px;
 			left: 10px;
