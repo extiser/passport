@@ -354,11 +354,14 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
           transition: all .4s ease-in-out; }
   .mask.active {
     visibility: visible;
-    opacity: .3; }
+    opacity: .5; }
 
 html, body {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif; }
+  html.active, body.active {
+    overflow: hidden;
+    position: fixed; }
 
 @media screen and (max-width: 768px) {
   .comments__title {
@@ -840,9 +843,6 @@ html, body {
       -webkit-order: 3;
           -ms-flex-order: 3;
               order: 3; } }
-
-.mCSB_draggerContainer {
-  opacity: 0 !important; }
 
 .mCustomScrollbar {
   -ms-touch-action: none;
@@ -1892,14 +1892,14 @@ html, body {
     background-repeat: no-repeat; }
     @media screen and (max-width: 768px) {
       .header__logo {
-        margin: 30px auto 30px; } }
+        margin: 78px auto 30px; } }
 
 .left-menu {
   margin-top: 24px;
   padding-top: 17px;
   border-top: 1px solid #c9cfd6; }
   .left-menu__mobile {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     display: none;
@@ -1910,7 +1910,10 @@ html, body {
     font-size: 1em;
     line-height: 48px;
     border-bottom: 1px solid #cecece;
-    z-index: 9999; }
+    z-index: 9999;
+    width: 100%;
+    background: #2271a8;
+    opacity: .8; }
     .left-menu__mobile:before {
       top: 11px;
       left: 10px;
@@ -1930,10 +1933,6 @@ html, body {
       height: 24px;
       background-size: 242px, 154px;
       background-repeat: no-repeat; }
-    .left-menu__mobile.fixed {
-      position: fixed;
-      width: 100%;
-      background: #2271a8; }
     @media screen and (max-width: 768px) {
       .left-menu__mobile {
         display: block; } }
@@ -2035,6 +2034,8 @@ html, body {
     bottom: 0;
     left: -100%;
     visibility: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     width: 50%;
     background: #fff;
     -webkit-transition: all .4s ease-in-out;
@@ -2046,5 +2047,4 @@ html, body {
       margin-top: 0; } }
 @media screen and (max-width: 480px) {
   .sidebar-menu {
-    width: 80%;
-    bottom: 0; } }
+    width: 80%; } }

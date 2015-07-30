@@ -20,7 +20,8 @@
 		left: -100%;
 
 		visibility: hidden;
-		//overflow: scroll;
+		overflow-x: hidden;
+		overflow-y: scroll;
 
 		width: 50%;
 
@@ -40,6 +41,5 @@
 	}
 	@media screen and (max-width: 480px) {
 		width: 80%;
-		bottom: 0;
 	}
 }
