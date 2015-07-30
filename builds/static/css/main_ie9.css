@@ -332,7 +332,7 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
     .main {
       width: 100%; } }
   @media screen and (max-width: 768px) {
-    .main__wrap {
+    .main__wrap.active {
       width: 100%;
       overflow-x: hidden;
       position: absolute;

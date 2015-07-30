@@ -9,11 +9,12 @@
 	}
 	&__wrap {
 		@media screen and (max-width: 768px) {
-			width: 100%;
-			overflow-x: hidden;
-			position: absolute;
-			height: 100%;
-			
+			&.active {
+				width: 100%;
+				overflow-x: hidden;
+				position: absolute;
+				height: 100%;
+			}
 		}
 	}
 	&__slide {
@@ -22,7 +23,6 @@
 				width: 100%;
 				position: absolute;
 				left: 90%;
-				//top: 120px;
 			}
 		}
 	}
