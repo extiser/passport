@@ -4,8 +4,36 @@
 		"selected_items":
 		[
 			[
+				"bakgo",
+				"background"
+			],
+			[
 				"margin",
-				"margin-top"
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"bod",
+				"bodyHeight"
+			],
+			[
+				"do",
+				"documentHeight"
+			],
+			[
+				"dc",
+				"documentHeight"
+			],
+			[
+				"doc",
+				"documentHeight"
+			],
+			[
+				"win",
+				"windowHeight"
 			],
 			[
 				"t",
@@ -18,10 +46,6 @@
 			[
 				"co",
 				"color"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"max-",
@@ -254,10 +278,6 @@
 			[
 				"col",
 				"col-lg-offset-1"
-			],
-			[
-				"doc",
-				"docHeight"
 			],
 			[
 				"sl",
@@ -494,26 +514,6 @@
 			[
 				"child",
 				"childNodes"
-			],
-			[
-				"thu",
-				"thumbElements"
-			],
-			[
-				"get",
-				"getMonth"
-			],
-			[
-				"cou",
-				"countWeeks"
-			],
-			[
-				"coun",
-				"countWeeks"
-			],
-			[
-				"cale",
-				"calendar"
 			]
 		]
 	},
@@ -593,30 +593,26 @@
 	[
 		"/Users/extiser/git/passport/markup",
 		"/Users/extiser/git/passport/markup/modules",
-		"/Users/extiser/git/passport/markup/modules/footer",
-		"/Users/extiser/git/passport/markup/modules/header",
-		"/Users/extiser/git/passport/markup/modules/left-menu",
-		"/Users/extiser/git/passport/markup/modules/main-menu",
-		"/Users/extiser/git/passport/markup/modules/sidebar",
 		"/Users/extiser/git/passport/markup/pages",
 		"/Users/extiser/git/passport/markup/static",
 		"/Users/extiser/git/passport/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/passport/markup/modules/left-menu/left-menu.jade",
-		"/Users/extiser/git/passport/markup/modules/left-menu/left-menu.scss",
 		"/Users/extiser/git/passport/markup/modules/sidebar/sidebar.scss",
-		"/Users/extiser/git/passport/markup/static/scss/common.scss",
+		"/Users/extiser/git/passport/markup/modules/left-menu/left-menu.scss",
+		"/Users/extiser/git/passport/markup/modules/footer/footer.scss",
+		"/Users/extiser/git/passport/markup/modules/header/header.js",
 		"/Users/extiser/git/passport/markup/modules/left-menu/left-menu.js",
+		"/Users/extiser/git/passport/markup/modules/header/header.scss",
+		"/Users/extiser/git/passport/markup/static/scss/common.scss",
 		"/Users/extiser/git/passport/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/passport/markup/modules/head/head.jade",
 		"/Users/extiser/git/passport/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/passport/markup/modules/left-menu/left-menu.jade",
 		"/Users/extiser/git/passport/markup/modules/sidebar/sidebar.jade",
 		"/Users/extiser/git/passport/markup/modules/header/header.jade",
-		"/Users/extiser/git/passport/markup/modules/header/header.scss",
 		"/Users/extiser/git/passport/markup/modules/main-menu/main-menu.scss",
-		"/Users/extiser/git/passport/markup/modules/header/header.js",
-		"/Users/extiser/git/passport/markup/modules/footer/footer.scss",
 		"/Users/extiser/git/passport/markup/modules/main-menu/main-menu.jade",
 		"/Users/extiser/git/passport/markup/modules/main-menu/main-menu.js",
 		"/Users/extiser/git/passport/passport.sublime-project",
@@ -730,8 +726,7 @@
 		"/E/Git/prana-group-landing/markup/modules/tarif/controller/tarifController.js",
 		"/E/Git/prana-group-landing/markup/static/misc/sendMail.php",
 		"/E/Git/prana-group-landing/markup/modules/tarif/tarif.js",
-		"/E/Git/prana-group-landing/markup/modules/portfolio/portfolio.scss",
-		"/E/Git/prana-group-landing/markup/modules/info/info.scss"
+		"/E/Git/prana-group-landing/markup/modules/portfolio/portfolio.scss"
 	],
 	"find":
 	{
