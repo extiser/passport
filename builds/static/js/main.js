@@ -7,7 +7,6 @@ $(window).scroll(function () {
     }
 });
 jQuery(document).ready(function ($) {
-    void 0;
     $('.left-menu__mobile').click(function () {
         $('.sidebar-menu, body, .mask, .left-menu__mobile').toggleClass('active');
     });
