@@ -66,16 +66,18 @@
 		box-shadow: 0 1px 5px 0 rgba(50, 50, 50, .05);
 
 		font-size: em(13px);
+
+		&:hover {
+			color: #fff;
+			background: linear-gradient(to bottom,  #2273af 0%,#5a84af 100%);
+		}
+
 		@media screen and (max-width: 768px) {
 			font-size: em(14px);
 			&:hover {
 				color: #515151;
 				background: #e5e9ee;
 			}
-		}
-		&:hover {
-			color: #fff;
-			background: linear-gradient(to bottom,  #2273af 0%,#5a84af 100%);
 		}
 	}
 }
