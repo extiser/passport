@@ -26,7 +26,6 @@
 			flex-wrap: wrap;
 			&.active {
 				position: absolute;
-				left: 80%;
 
 				width: 100%;
 			}
@@ -39,11 +38,8 @@
 	left: -100%;
 
 	width: 80%;
-
-	border-right: 1px solid #cecece;
 	&.active {
 		z-index: 5;
-		top: 145px;
 		left: 0;
 
 		background: #fff;

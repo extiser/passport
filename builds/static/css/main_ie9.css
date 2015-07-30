@@ -348,17 +348,14 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
               flex-wrap: wrap; }
       .main__slide.active {
         position: absolute;
-        left: 80%;
         width: 100%; } }
 
 .menu-slide {
   position: absolute;
   left: -100%;
-  width: 80%;
-  border-right: 1px solid #cecece; }
+  width: 80%; }
   .menu-slide.active {
     z-index: 5;
-    top: 145px;
     left: 0;
     background: #fff; }
     .menu-slide.active .left-menu {
@@ -887,7 +884,7 @@ html, body {
     background-repeat: no-repeat; }
     @media screen and (max-width: 768px) {
       .header__logo {
-        margin: 10px auto 30px; } }
+        margin: 30px auto 30px; } }
 
 .left-menu {
   margin-top: 24px;
@@ -906,7 +903,9 @@ html, body {
     color: #fff;
     background: transparent;
     font-size: 1em;
-    line-height: 48px; }
+    line-height: 48px;
+    border-bottom: 1px solid #cecece;
+    z-index: 9999; }
     .left-menu__mobile:before {
       top: 11px;
       left: 10px;
@@ -1001,7 +1000,8 @@ html, body {
     line-height: 50px; }
     @media screen and (max-width: 768px) {
       .main-menu__item {
-        width: auto; } }
+        width: auto;
+        padding: 0; } }
     @media screen and (max-width: 480px) {
       .main-menu__item {
         display: block;

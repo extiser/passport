@@ -8,6 +8,7 @@ jQuery(document).ready(function ($) {
         });
 
         var menu = $('.left-menu');
+        var heightHeader = $('.header').height();
 
         if ($(this).hasClass('active')) {
             $('.menu-slide').detach();
@@ -18,6 +19,8 @@ jQuery(document).ready(function ($) {
             $('.header').after('<div class="menu-slide"></div>');
 
             menu.clone().prependTo('.menu-slide');
+
+            $('.menu-slide').css('top', heightHeader);
 
             $('.sidebar .left-menu').detach();
 
