@@ -347,6 +347,7 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
   visibility: hidden;
   width: 100%;
   height: 100%;
+  overflow: hidden;
   opacity: 0;
   background: #000;
   -webkit-transition: all .4s ease-in-out;
@@ -358,9 +359,6 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
 html, body {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif; }
-  html.active, body.active {
-    overflow: hidden;
-    position: fixed; }
 
 @media screen and (max-width: 768px) {
   .comments__title {
@@ -1965,38 +1963,6 @@ html, body {
       background: -webkit-linear-gradient(top, #2273af 0%, #5a84af 100%);
       background: linear-gradient(to bottom, #2273af 0%, #5a84af 100%); }
 
-.sidebar {
-  display: inline-block;
-  width: 325px;
-  margin-top: 40px; }
-  @media screen and (max-width: 768px) {
-    .sidebar {
-      display: block;
-      width: 100%;
-      margin-top: 0; } }
-
-@media screen and (max-width: 768px) {
-  .sidebar-menu {
-    position: fixed;
-    z-index: 9;
-    top: 50px;
-    left: -100%;
-    visibility: hidden;
-    overflow: scroll;
-    width: 50%;
-    height: 100%;
-    background: #fff;
-    -webkit-transition: all .4s ease-in-out;
-            transition: all .4s ease-in-out; }
-    .sidebar-menu.active {
-      left: 0;
-      visibility: visible; }
-    .sidebar-menu .left-menu:first-child {
-      margin-top: 0; } }
-@media screen and (max-width: 480px) {
-  .sidebar-menu {
-    width: 80%; } }
-
 .main-menu {
   display: table;
   width: 100%;
@@ -2050,3 +2016,35 @@ html, body {
     .main-menu__item:hover {
       border: 1px solid #b8c8d8;
       background: url(../images/general/main-menu-hover.png) repeat-x; }
+
+.sidebar {
+  display: inline-block;
+  width: 325px;
+  margin-top: 40px; }
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      display: block;
+      width: 100%;
+      margin-top: 0; } }
+
+@media screen and (max-width: 768px) {
+  .sidebar-menu {
+    position: fixed;
+    z-index: 9;
+    top: 50px;
+    bottom: 0;
+    left: -100%;
+    visibility: hidden;
+    width: 50%;
+    background: #fff;
+    -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out; }
+    .sidebar-menu.active {
+      left: 0;
+      visibility: visible; }
+    .sidebar-menu .left-menu:first-child {
+      margin-top: 0; } }
+@media screen and (max-width: 480px) {
+  .sidebar-menu {
+    width: 80%;
+    bottom: 0; } }
