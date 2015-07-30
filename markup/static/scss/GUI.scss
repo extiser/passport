@@ -7,11 +7,22 @@
 	@media screen and (max-width: 768px) {
 		width: 100%;
 	}
-	&__slide {
+	&__wrap {
 		@media screen and (max-width: 768px) {
 			width: 100%;
+			overflow-x: hidden;
+			position: absolute;
+			height: 100%;
+			
+		}
+	}
+	&__slide {
+		@media screen and (max-width: 768px) {
 			&.active {
-				margin-left: 90%;
+				width: 100%;
+				position: absolute;
+				left: 90%;
+				//top: 120px;
 			}
 		}
 	}
