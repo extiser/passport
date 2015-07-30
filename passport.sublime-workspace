@@ -4,56 +4,120 @@
 		"selected_items":
 		[
 			[
-				"bl",
-				"block"
-			],
-			[
 				"margin",
-				"margin-bottom"
-			],
-			[
-				"in",
-				"inline-block"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"pad",
-				"padding-bottom"
-			],
-			[
-				"text",
-				"text-transform"
-			],
-			[
-				"back",
-				"background"
-			],
-			[
-				"border-bot",
-				"border-bottom"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"te",
-				"text-align"
-			],
-			[
-				"borde",
-				"border-right"
+				"margin-right"
 			],
 			[
 				"marign",
 				"margin-right"
 			],
 			[
-				"marg",
+				"te",
+				"text-align"
+			],
+			[
+				"com",
+				"comments-item__name"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"scr",
+				"script"
+			],
+			[
+				"l",
+				"line-height"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margn",
+				"margin-bottom"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"con",
+				"contact-support__phone"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"item",
+				"items"
+			],
+			[
+				"c",
+				"consultation"
+			],
+			[
+				"p",
+				"padding-left"
+			],
+			[
+				"re",
+				"repeat-x"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"m",
+				"main-menu"
+			],
+			[
+				"mar",
 				"margin-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border-bot",
+				"border-bottom"
 			],
 			[
 				"slide",
@@ -180,10 +244,6 @@
 				"margin-left"
 			],
 			[
-				"con",
-				"container-fluid"
-			],
-			[
 				"fir",
 				"firm-page--pattern"
 			],
@@ -202,14 +262,6 @@
 			[
 				"cn",
 				"container-fluid"
-			],
-			[
-				"m",
-				"margin-top"
-			],
-			[
-				"ma",
-				"margin-bottom"
 			],
 			[
 				"to",
@@ -272,10 +324,6 @@
 				"margin-left"
 			],
 			[
-				"p",
-				"position"
-			],
-			[
 				"fot",
 				"font-family"
 			],
@@ -290,10 +338,6 @@
 			[
 				"border-bt",
 				"border-bottom-color"
-			],
-			[
-				"ta",
-				"tarif"
 			],
 			[
 				"tar",
@@ -428,10 +472,6 @@
 				"padding-right"
 			],
 			[
-				"margn",
-				"margin"
-			],
-			[
 				"child",
 				"childNodes"
 			],
@@ -474,46 +514,6 @@
 			[
 				"parse",
 				"parseInt"
-			],
-			[
-				"lst",
-				"lastDayOfWeek"
-			],
-			[
-				"countFr",
-				"countFreeDaysBegin"
-			],
-			[
-				"date",
-				"dates"
-			],
-			[
-				"cur",
-				"curMonth"
-			],
-			[
-				"month",
-				"monthBlock"
-			],
-			[
-				"mont",
-				"monthNmb"
-			],
-			[
-				"wee",
-				"weekBlock_in"
-			],
-			[
-				"next",
-				"nextYear"
-			],
-			[
-				"mon",
-				"monthLeft"
-			],
-			[
-				"inner",
-				"innerHTML"
 			]
 		]
 	},
@@ -591,10 +591,50 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/passport/markup"
+		"/Users/extiser/git/passport/markup",
+		"/Users/extiser/git/passport/markup/modules",
+		"/Users/extiser/git/passport/markup/modules/comments",
+		"/Users/extiser/git/passport/markup/static",
+		"/Users/extiser/git/passport/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/passport/passport.sublime-project",
+		"/Users/extiser/git/passport/markup/modules/comments/comments.jade",
+		"/Users/extiser/git/passport/markup/modules/comments/comments.scss",
+		"/Users/extiser/git/passport/markup/modules/content/content.jade",
+		"/Users/extiser/git/passport/markup/modules/include/include.jade",
+		"/Users/extiser/git/passport/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/passport/markup/modules/consultation/consultation.scss",
+		"/Users/extiser/git/passport/markup/modules/content/content.scss",
+		"/Users/extiser/git/passport/markup/modules/sidebar/sidebar.scss",
+		"/Users/extiser/git/passport/markup/modules/main-menu/main-menu.scss",
+		"/Users/extiser/git/passport/markup/modules/left-menu/left-menu.scss",
+		"/Users/extiser/git/passport/markup/modules/header/header.scss",
+		"/Users/extiser/git/passport/markup/modules/footer/footer.scss",
+		"/Users/extiser/git/passport/markup/modules/contact-support/contact-support.scss",
+		"/Users/extiser/git/passport/markup/modules/main-menu/main-menu.js",
+		"/Users/extiser/git/passport/markup/static/scss/vars.scss",
+		"/Users/extiser/git/passport/markup/modules/main-menu/main-menu.jade",
+		"/Users/extiser/git/passport/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/gsb/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/passport/markup/pages/single.jade",
+		"/Users/extiser/git/passport/markup/pages/index.jade",
+		"/Users/extiser/git/passport/markup/modules/single-content/single-content.jade",
+		"/Users/extiser/git/passport/markup/modules/single-content/single-content.scss",
+		"/Users/extiser/git/passport/markup/modules/index-content/index-content.scss",
+		"/Users/extiser/git/passport/markup/modules/index-content/index-content.jade",
+		"/Users/extiser/git/passport/markup/modules/contact-support/contact-support.jade",
+		"/Users/extiser/git/passport/markup/modules/left-menu/left-menu.jade",
+		"/Users/extiser/git/passport/markup/modules/sidebar/sidebar.jade",
+		"/Users/extiser/git/pbc/tars/markup/modules/header/header.jade",
+		"/Users/extiser/git/pbc/tars/markup/modules/header/data/data.js",
+		"/Users/extiser/git/pbc/tars/markup/modules/slider/slider.jade",
+		"/Users/extiser/git/tea/markup/modules/catalog-list/catalog-list.jade",
+		"/Users/extiser/git/tea/markup/modules/top/top.jade",
+		"/Users/extiser/git/tea/markup/modules/sidebar-menu/sidebar-menu.jade",
+		"/Users/extiser/git/passport/markup/modules/consultation/consultation.jade",
+		"/Users/extiser/git/passport/markup/modules/header/header.jade",
 		"/Users/extiser/Desktop/tabs.html",
 		"/Users/extiser/Desktop/tabs.js",
 		"/Users/extiser/git/svadbavo-2015/dev/sass/blocks/_registration.scss",
@@ -686,47 +726,11 @@
 		"/E/Git/prana-group-landing/markup/modules/info/info.scss",
 		"/E/Git/prana-group-landing/markup/modules/howwework/controller/howweworkController.js",
 		"/E/Git/prana-group-landing/markup/modules/howwework/howwework.scss",
-		"/C/WebServers/home/web.sushi.loc/www/files/animate.js",
-		"/E/Git/prana-group-landing/markup/modules/footer/footer.jade",
-		"/E/Git/prana-group-landing/markup/modules/header/controller/headerController.js",
-		"/E/Git/prana-group-landing/markup/modules/header/header.js",
-		"/E/Git/prana-group-landing/markup/modules/header/header.jade",
-		"/C/WebServers/home/web.sushi.loc/www/js/site.js",
-		"/E/Git/prana-group-landing/markup/modules/slider/slider.scss",
-		"/E/Git/prana-group-landing/markup/modules/map/map.scss",
-		"/E/Git/prana-group-landing/markup/modules/map/map.jade",
-		"/E/Git/prana-group-landing/markup/modules/map/controller/mapController.js",
-		"/E/Git/prana-group-landing/dev/static/js/main.js",
-		"/E/Git/prana-group-landing/markup/static/misc/siteParam/header.json",
-		"/E/Git/prana-group-landing/markup/modules/map/map.js",
-		"/E/Git/prana-group-landing/markup/pages/index.jade",
-		"/E/Git/prana-group-landing/markup/static/js/libraries/include.js",
-		"/E/Git/prana-group-landing/markup/modules/form/form.scss",
-		"/E/Git/prana-group-landing/markup/modules/form/formSend.js",
-		"/C/WebServers/tmp/!sendmail/2015-04-17_16-04-13.eml",
-		"/C/WebServers/home/web.sushi.loc/www/dynamic/mail.php",
-		"/E/Git/prana-group-landing/markup/modules/form/form.js",
-		"/E/Git/prana-group-landing/markup/static/misc/siteParam/form.json",
-		"/E/Git/prana-group-landing/markup/modules/form/controller/formController.js",
-		"/C/WebServers/home/web.sushi.loc/www/index.php",
-		"/E/Git/prana-group-landing/markup/modules/slider/slider.js",
-		"/E/Git/prana-group-landing/markup/static/misc/siteParam/reviews.json",
-		"/E/Git/prana-group-landing/markup/modules/reviews/reviews.scss",
-		"/E/Git/prana-group-landing/markup/modules/reviews/reviews.jade",
-		"/E/Git/prana-group-landing/markup/modules/reviews/controller/reviewsController.js",
-		"/E/Git/prana-group-landing/markup/static/scss/fonts.scss",
-		"/E/Git/prana-group-landing/markup/modules/reviews/reviews.js",
-		"/E/Git/prana-group-landing/markup/static/misc/siteParam/portfolio.json",
-		"/E/Git/prana-group-landing/markup/modules/portfolio/controller/portfolioController.js",
-		"/E/Git/prana-group-landing/markup/modules/portfolio/portfolio.js",
-		"/E/Git/prana-group-landing/markup/modules/howwework/howwework.jade",
-		"/E/Git/prana-group-landing/markup/static/misc/siteParam/howWeWork.json",
-		"/E/Git/prana-group-landing/markup/static/scss/GUI.scss",
-		"/E/Git/prana-group-landing/markup/modules/howwework/howwework.js"
+		"/C/WebServers/home/web.sushi.loc/www/files/animate.js"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -740,6 +744,17 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"(max-width: 480px)",
+			"(max-width: 768px)",
+			"(min-width: 480px) and ",
+			"(max-width: 768px)",
+			"(min-width: 480px) and ",
+			"(min-width: 320px) and ",
+			"@media",
+			"screen and (min-width: 320px) and ",
+			"max-width: 768px",
+			"min-width: 320px",
+			"min-width: 480px",
 			"#000",
 			"search",
 			"(765)\n	",
@@ -856,18 +871,7 @@
 			"http://aversprof.ru/katalog/uniforma-i-speczodezhda/poshiv-rabochego-kostyuma.html",
 			"$password",
 			"slides_container",
-			"sliderBlock",
-			".slide",
-			".slides",
-			"iq.acccentre.loc",
-			"short",
-			"iq.acccentre.loc",
-			"#",
-			".title",
-			"temp/",
-			"childcontent",
-			".first",
-			"first"
+			"sliderBlock"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -875,6 +879,16 @@
 		"regex": false,
 		"replace_history":
 		[
+			"(max-width: 768px)",
+			"(max-width: 480px)",
+			"",
+			"(max-width: 480px)",
+			"",
+			"@media screen and",
+			"",
+			"max-width: 480px",
+			"min-width: 480px",
+			"min-width: 320px",
 			"\n	span (765)\n	",
 			"\n	span (765)",
 			".col-xs-12.col-md-12.col-lg-11",
@@ -1044,7 +1058,7 @@
 	"project": "passport.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
