@@ -17,7 +17,7 @@ var tarsConfig = {
      * Use svg images
      * @type {Boolean}
      */
-    useSVG: true,
+    useSVG: false,
 
     /**
      * Use linting and hinting of js-files
@@ -185,7 +185,7 @@ var tarsConfig = {
      * Use archiver for your build
      * @type {Boolean}
      */
-    useArchiver: false,
+    useArchiver: true,
 
     /**
      * Set ulimit. Topical for Linux-family OS and OSX.

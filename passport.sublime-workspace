@@ -593,12 +593,14 @@
 	[
 		"/Users/extiser/git/passport/markup",
 		"/Users/extiser/git/passport/markup/modules",
+		"/Users/extiser/git/passport/markup/modules/content",
 		"/Users/extiser/git/passport/markup/pages",
 		"/Users/extiser/git/passport/markup/static",
 		"/Users/extiser/git/passport/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/passport/markup/modules/content/content.scss",
 		"/Users/extiser/git/passport/markup/modules/sidebar/sidebar.scss",
 		"/Users/extiser/git/passport/markup/modules/left-menu/left-menu.scss",
 		"/Users/extiser/git/passport/markup/modules/footer/footer.scss",
@@ -621,7 +623,6 @@
 		"/Users/extiser/git/passport/markup/modules/content/content.jade",
 		"/Users/extiser/git/passport/markup/modules/include/include.jade",
 		"/Users/extiser/git/passport/markup/modules/consultation/consultation.scss",
-		"/Users/extiser/git/passport/markup/modules/content/content.scss",
 		"/Users/extiser/git/passport/markup/modules/contact-support/contact-support.scss",
 		"/Users/extiser/git/passport/markup/static/scss/vars.scss",
 		"/Users/extiser/git/gsb/markup/modules/footer/footer.jade",
