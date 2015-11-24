@@ -1,0 +1,22 @@
+mixin single-meta()
+	.single-meta
+		.single-meta__left
+			.date 12 октября 2015
+
+			.social-likes
+				.vkontakte 
+				.facebook 
+				.twitter 
+
+		.single-meta__right
+			.rating(itemscope itemtype="http://data-vocabulary.org/Review-aggregate")
+				.rating__count#raiting(itemprop="rating" itemscope="" itemtype="http://data-vocabulary.org/Rating") 
+					span(itemprop="average") 8.8 
+					| из 
+					span(itemprop="best") 10
+					span(id="count" itemprop="votes") 10
+
+				.rating-likes#raiting_b(style="display: <?=$disp;?>;")
+					input(type="hidden" id="id" value="<?=$data['id'];?>")
+					a(href="#" title="").rating-likes__up#plus_b Понравилось
+					a(href="#" title="").rating-likes__down#minus_b Не понравилось

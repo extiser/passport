@@ -4,16 +4,20 @@
 		"selected_items":
 		[
 			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
 				"bakgo",
 				"background"
 			],
 			[
 				"margin",
 				"margin-bottom"
-			],
-			[
-				"pad",
-				"padding-bottom"
 			],
 			[
 				"bod",
@@ -230,10 +234,6 @@
 			[
 				"form",
 				"form__submit"
-			],
-			[
-				"text-",
-				"text-align"
 			],
 			[
 				"оп",
@@ -594,12 +594,23 @@
 		"/Users/extiser/git/passport/markup",
 		"/Users/extiser/git/passport/markup/modules",
 		"/Users/extiser/git/passport/markup/modules/content",
+		"/Users/extiser/git/passport/markup/modules/include",
+		"/Users/extiser/git/passport/markup/modules/single-meta",
 		"/Users/extiser/git/passport/markup/pages",
 		"/Users/extiser/git/passport/markup/static",
 		"/Users/extiser/git/passport/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/passport/markup/modules/single-meta/single-meta.scss",
+		"/Users/extiser/git/passport/dev/static/css/main.css",
+		"/Users/extiser/git/insight/tars/markup/pages/base.jade",
+		"/Users/extiser/git/passport/markup/modules/single-meta/single-meta.jade",
+		"/Users/extiser/Downloads/raiting/raiting.tpl",
+		"/Users/extiser/git/passport/markup/modules/single-meta/social.scss",
+		"/Users/extiser/git/passport/markup/modules/content/content.jade",
+		"/Users/extiser/git/passport/markup/modules/single-meta/social.js",
+		"/Users/extiser/git/passport/markup/modules/include/include.jade",
 		"/Users/extiser/git/passport/markup/modules/content/content.scss",
 		"/Users/extiser/git/passport/markup/modules/sidebar/sidebar.scss",
 		"/Users/extiser/git/passport/markup/modules/left-menu/left-menu.scss",
@@ -620,8 +631,6 @@
 		"/Users/extiser/git/passport/passport.sublime-project",
 		"/Users/extiser/git/passport/markup/modules/comments/comments.jade",
 		"/Users/extiser/git/passport/markup/modules/comments/comments.scss",
-		"/Users/extiser/git/passport/markup/modules/content/content.jade",
-		"/Users/extiser/git/passport/markup/modules/include/include.jade",
 		"/Users/extiser/git/passport/markup/modules/consultation/consultation.scss",
 		"/Users/extiser/git/passport/markup/modules/contact-support/contact-support.scss",
 		"/Users/extiser/git/passport/markup/static/scss/vars.scss",
@@ -720,14 +729,7 @@
 		"/E/Git/prana-group-landing/markup/modules/programs/programs.scss",
 		"/E/Git/prana-group-landing/markup/static/misc/siteParam/programs.json",
 		"/E/Git/prana-group-landing/markup/modules/programs/programs.js",
-		"/E/Git/prana-group-landing/markup/modules/header/header.scss",
-		"/C/Users/Руслан/Desktop/ModalWindowEffects/ModalWindowEffects/css/component.css",
-		"/E/Git/prana-group-landing/markup/modules/footer/footer.scss",
-		"/E/Git/prana-group-landing/markup/modules/form/form.jade",
-		"/E/Git/prana-group-landing/markup/modules/tarif/controller/tarifController.js",
-		"/E/Git/prana-group-landing/markup/static/misc/sendMail.php",
-		"/E/Git/prana-group-landing/markup/modules/tarif/tarif.js",
-		"/E/Git/prana-group-landing/markup/modules/portfolio/portfolio.scss"
+		"/E/Git/prana-group-landing/markup/modules/header/header.scss"
 	],
 	"find":
 	{
@@ -745,6 +747,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".comments-item__name",
+			"min-height: 36px;",
+			".social-likes",
+			".social-likes__widget",
+			"font-size",
+			".social-likes",
+			".social-likes__widget",
+			"_widget",
+			"padding: .04em .7em .18em 1.65em",
 			"(max-width: 480px)",
 			"(max-width: 768px)",
 			"(min-width: 480px) and ",
@@ -863,16 +874,7 @@
 			"-webkit-appearance: textfield;",
 			".form__element",
 			".form",
-			"form",
-			"acccentre.ru",
-			"acccentre.iqdemo.ru",
-			"strong",
-			"footer",
-			"firm-card-tabs-photo-album",
-			"http://aversprof.ru/katalog/uniforma-i-speczodezhda/poshiv-rabochego-kostyuma.html",
-			"$password",
-			"slides_container",
-			"sliderBlock"
+			"form"
 		],
 		"highlight": false,
 		"in_selection": false,
